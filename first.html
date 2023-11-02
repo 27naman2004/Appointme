@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment schedule</title>
+</head>
+<body>
+    <h2>Appointment sachedule</h2>
+    <form action="sumbit">
+        <label for="Name">Name</label>
+        <input type="text" id="Name" name="Name" required>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="text" id="Email" name="Email" required >
+        <br>
+        <br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" nmae="phone" required>
+        <br>
+        <br>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <br>
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time" required>
+        <br>
+        <br>
+        <label for="type of appointment">Appointment Type</label>
+        <br>
+        <select name="type of appointment" id="type of apppointment">
+            <option value="virtual meeting">virtual meeting</option>
+            <br>
+            <option value="center appointment">Center appointment</option>
+        </select>
+        <label for="notes">Note</label>
+        <textarea name="notes" id="NOtes" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="Method of Reminder">Reminder method</label>
+        <input type="chekbox" id="Reminder by Email" value="Email">email
+        <input type="checkbox" id="Reminder by sms" value="Sms">sms <br><br>
+
+        
+        <label for="timing of Reminder">Reminder Timing</label>
+        <input type="radio" id="Reminder timing" value="one day Before">one day before
+        <input type="radio" id="Reminder" value="one hour befor">one hour before <br><br>
+        <p>Book your appointment here</p>
+        <button>
+            sumbit
+        </button>
+    </form>
+</body>
+</html>
